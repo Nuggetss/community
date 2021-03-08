@@ -29,7 +29,7 @@ public class AuthorizeController {
     @Autowired
     private GithubProvider githubProvider;
 
-    @Value("${github.client.id}")
+    @Value("6beb0d49b132c4b93b91")
     private String clientId;
 
     @Value("${github.client.secret}")
